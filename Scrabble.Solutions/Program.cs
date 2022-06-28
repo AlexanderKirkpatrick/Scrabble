@@ -10,10 +10,20 @@ namespace ScrabbleScore
    
    public static void Main() 
    {
-    foreach (var item in letterValues)
-    Console.WriteLine(item + ", " );
-   }
+    Console.WriteLine("Welcome to the premier Scrabble score checker!");
+    Console.WriteLine("Please enter a word to see the Scrabble value!");
+    string userInput = Console.ReadLine();
+
+    char[] userWordArray = userInput.ToCharArray();
+    foreach (var word in userWordArray)
+    {
+     Console.WriteLine(word);
+    }
+    Main();
   }
+}
 }
 
 
+// foreach (var item in letterValues)
+//     Console.WriteLine(item + ", " );
