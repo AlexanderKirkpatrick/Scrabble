@@ -10,7 +10,8 @@ namespace ScrabbleScore
    
    public static void Main() 
    {
-    Console.WriteLine(letterValues);
+    foreach (var item in letterValues)
+    Console.WriteLine(item + ", " );
    }
   }
 }
