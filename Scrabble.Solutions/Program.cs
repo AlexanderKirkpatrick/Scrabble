@@ -19,8 +19,13 @@ namespace ScrabbleScore
     {
      Console.WriteLine(word);
     }
-    Main();
+    
+    static void SplitWordValue()
+    {
+      
+    }
   }
+
 }
 }
 
