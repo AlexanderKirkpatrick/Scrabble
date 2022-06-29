@@ -22,7 +22,7 @@ namespace ScrabbleScore
     
     static void SplitWordValue()
     {
-      
+      //new code
     }
   }
 
