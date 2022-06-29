@@ -28,7 +28,3 @@ namespace ScrabbleScore
 
 }
 }
-
-
-// foreach (var item in letterValues)
-//     Console.WriteLine(item + ", " );
